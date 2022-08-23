@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@400&display=swap');
 
 * {
     padding: 0;
@@ -8,18 +8,24 @@
 
 body {
     font-family: Cormorant, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;    
+    color: #353f36;
+    text-size: 170%; 
 }
 
 h1, h2 {
     font-family: Cinzel, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#252525;
+    color:#353f36;
 }
 
 /* Header and logo */
+
+#header-outer {
+    width: 100%;
+    background-color: #D7E8BA;
+    height: 75px;
+}
 
 #logo {
     float: left;
@@ -48,4 +54,33 @@ h1, h2 {
 
 #menu a:hover {
     text-decoration: underline;
+}
+
+/* Experience japanese tastes text */
+
+#taste-experience {
+    margin: 3%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#taste-experience h2, #taste-experience p {
+    margin-bottom: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Parallax image under navbar on main page */
+
+#parallax-image {
+    background: url("../images/sushi.jpg");
+    background-color: blueviolet;
+    width: 100%;
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

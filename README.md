@@ -1,5 +1,10 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+Sources: 
+Sushi image comes from https://unsplash.com/photos/a5ToDH34m0I and is taken by Alva Pratt and is free to use under the Unsplash License
+Filler text is AI generated with https://smodin.io/writer and double checked for plagiarism with grammarly
+
+
 Welcome Mattias-b-Pettersson,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
