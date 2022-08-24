@@ -22,21 +22,38 @@
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="menu.html">Menu</a>
                         </li>
-                        <li>
-                            <a href="#">Contact Us</a>    
+                        <li class="active">
+                            <a href="contact.html">Contact Us</a>    
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <section>
-
-
-        
+    <section id="form-section">
+        <div id="contact-form-outer">
+            <form method="POST" action="#" id="contact-form">
+                <h2>Contact us <i class="fa-solid fa-envelope"></i></h2>
+                <p>Got a question? Send a message below and we'll respond as soon as possible.</p>
+                
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" class="text-input" required>
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" class="text-input" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" class="text-input" required>
+                
+                <label for="mail-content">Message</label>
+                <textarea id="mail-content" name="mail-content" rows="6" cols="30">Type your message here!</textarea>
+                
+                <input id="send-button" type="submit" value="Send!" >
+            </form>
+        </div>
     </section>
     <!-- Footer inspierd by the Love Running project-->
     <footer>

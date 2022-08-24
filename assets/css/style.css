@@ -79,7 +79,7 @@ h1, h2 {
     position: absolute;
     left: 10%;
     bottom: 30%;
-    background-color: rgba(215,232,186, .7);
+    background-color: rgba(213, 221, 199, .7);
     padding: 20px;
     border-radius: 30px;
 }
@@ -143,6 +143,66 @@ h1, h2 {
     list-style-type: none;
     margin-top: 10px;
 }
+
+/*Form page*/
+
+#contact-form-outer {
+    background-color: whitesmoke;
+    min-height: 700px;
+    width: 100%;
+    background: url("../images/resturaunt-outside.jpg") no-repeat center center / cover;
+}
+
+#contact-form {
+    margin: auto;
+    padding: 3% 10% 3%;
+    width: 30%;
+    background-color: rgba(213, 221, 199, .9);
+}
+
+#contact-form h2, #contact-form p {
+    margin-bottom: 20px;
+}
+
+.text-input{
+    background: transparent;
+    font-size: 20px;
+    height: 30px;
+    margin: 5px 0 20px;
+    border: 1px solid #353f36;
+    width: 100%;
+    box-sizing: border-box;
+    padding:;
+}
+
+#mail-content {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid #353f36;
+}
+
+#mail-content:hover, .text-input:hover {
+    background-color: rgba(213, 221, 199, 1); 
+}
+
+#mail-content:focus, .text-input:focus {
+    background-color: rgba(213, 221, 199, 1); 
+}
+
+#send-button {
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    font-family: Cormorant, sans-serif;
+    font-size: 20px;
+    border: 1px solid #353f36;
+}
+
+#send-button:hover {
+    cursor: pointer;
+}
+
 
 /* Footer */
 
