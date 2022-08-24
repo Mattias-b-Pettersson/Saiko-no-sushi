@@ -10,7 +10,7 @@ body {
     font-family: Cormorant, sans-serif;
     color: #353f36;
     font-size: 120%; 
-    background-color: #D7E8BA;
+    background-color: #d5ddc7;
 }
 
 h1, h2 {
@@ -24,7 +24,6 @@ h1, h2 {
 
 #header-outer {
     width: 100%;
-    background-color: #D7E8BA;
     height: 75px;
     border-bottom: #353f36 solid 2px;
 }
@@ -61,7 +60,7 @@ h1, h2 {
     text-decoration: underline;
 }
 
-/* Parallax image */
+/* Parallax image on main page*/
 
 #parallax-image {
     background: url("../images/sushi.jpg");
@@ -85,7 +84,7 @@ h1, h2 {
     border-radius: 30px;
 }
 
-/* Experience japanese tastes text */
+/* Experience japanese tastes text on the main page */
 
 #taste-experience {
     width: 100%;
@@ -104,12 +103,51 @@ h1, h2 {
     padding-bottom: 2%;
 }
 
+/* Menu on the menu page */
+
+#menupage-outer {
+    height: auto;
+    text-align: center;
+}
+
+#our-menu {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#rolls li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#beverages {
+    height: 300px;
+    margin-top: 30px;
+}
+
+#beverages div {
+    display: inline-block;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 30px;
+}
+
+#beverages h3 {
+    font-family: Cinzel, sans-serif;
+}
+
+#beverages li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
 /* Footer */
 
 footer{
     height: 350px;
     text-align: center;
-    background-color: #D7E8BA;
     border-top: #353f36 solid 2px;
 }
 
