@@ -10,6 +10,7 @@ body {
     font-family: Cormorant, sans-serif;
     color: #353f36;
     font-size: 120%; 
+    background-color: whitesmoke;
 }
 
 h1, h2 {
@@ -60,7 +61,6 @@ h1, h2 {
 
 #parallax-image {
     background: url("../images/sushi.jpg");
-    background-color: whitesmoke;
     width: 100%;
     min-height: 700px;
 
@@ -84,7 +84,6 @@ h1, h2 {
 #taste-experience {
     width: 100%;
     text-align: center;
-    background-color: whitesmoke;
     box-sizing: content-box;
 }
 
@@ -97,3 +96,15 @@ h1, h2 {
 #taste-experience p {
     padding-bottom: 2%;
 }
+
+/* Footer */
+
+footer{
+    height 100px;
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
