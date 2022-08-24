@@ -26,6 +26,7 @@ h1, h2 {
     width: 100%;
     background-color: #D7E8BA;
     height: 75px;
+    border-bottom: #353f36 solid 2px;
 }
 
 #logo {
@@ -39,7 +40,6 @@ h1, h2 {
     float: right;
     line-height: 75px;
 }
-
 
 #menu li {
     margin-right: 30px;
@@ -57,6 +57,10 @@ h1, h2 {
     text-decoration: underline;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 /* Parallax image */
 
 #parallax-image {
@@ -68,9 +72,11 @@ h1, h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    border-bottom: #353f36 solid 2px;
 }
 
-#study {
+#text-inside-image {
     position: absolute;
     left: 10%;
     bottom: 30%;
@@ -107,17 +113,6 @@ footer{
     border-top: #353f36 solid 2px;
 }
 
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 30px;
-    padding: 0 50px 0;
-    color: #353f36;
-}
-
 /* Google map in footer*/
 
 #where {
@@ -140,3 +135,17 @@ footer{
     margin: 0 auto;
     padding-top: 30px;
 }
+
+/* Social network links */
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 30px;
+    padding: 0 50px 0;
+    color: #353f36;
+}
+
