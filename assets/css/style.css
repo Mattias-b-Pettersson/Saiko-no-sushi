@@ -10,7 +10,7 @@ body {
     font-family: Cormorant, sans-serif;
     color: #353f36;
     font-size: 120%; 
-    background-color: whitesmoke;
+    background-color: #D7E8BA;
 }
 
 h1, h2 {
@@ -45,7 +45,7 @@ h1, h2 {
     margin-right: 30px;
     list-style-type: none;
     float: left;
-    font-size: 190%;
+    font-size: 120%;
 }
 
 #menu a {
@@ -85,6 +85,7 @@ h1, h2 {
     width: 100%;
     text-align: center;
     box-sizing: content-box;
+    background-color: whitesmoke;
 }
 
 #taste-experience h2, #taste-experience p {
@@ -100,11 +101,46 @@ h1, h2 {
 /* Footer */
 
 footer{
-    height 100px;
+    height: 350px;
     text-align: center;
+    background-color: #D7E8BA;
+    border-top: #353f36 solid 2px;
+}
+
+.social-networks ul {
+     
 }
 
 .social-networks li {
     display: inline;
 }
 
+.social-networks i {
+    font-size: 160%;
+    margin: 30px;
+    padding: 0 50px 0;
+    color: #353f36;
+}
+
+/* Google map in footer*/
+
+#where {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 1000px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
