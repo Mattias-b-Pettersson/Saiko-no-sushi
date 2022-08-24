@@ -172,7 +172,6 @@ h1, h2 {
     border: 1px solid #353f36;
     width: 100%;
     box-sizing: border-box;
-    padding:;
 }
 
 #mail-content {
@@ -246,4 +245,22 @@ footer{
     margin: 30px;
     padding: 0 50px 0;
     color: #353f36;
+}
+
+/* Media queries */
+
+/* For larger to medium screen size from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/* For larger to medium screen size from 1200px wide and down*/
+
+@media screen and (max-width: 950px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    
 }
