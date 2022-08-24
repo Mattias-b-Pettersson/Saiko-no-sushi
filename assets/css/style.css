@@ -63,7 +63,7 @@ h1, h2 {
 /* Parallax image on main page*/
 
 #parallax-image {
-    background: url("../images/sushi.jpg");
+    background: url("../images/sushi-restaurant.jpg");
     width: 100%;
     min-height: 700px;
 
@@ -106,15 +106,16 @@ h1, h2 {
 /* Menu on the menu page */
 
 #menupage-outer {
-    height: auto;
+    height: 700px;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 #our-menu {
     font-size: 200%;
     text-align: center;
     text-decoration: underline;
-    margin-bottom: 20px;
+    padding: 20px 0 20px;
 }
 
 #rolls li {
