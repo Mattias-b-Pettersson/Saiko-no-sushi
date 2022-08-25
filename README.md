@@ -67,6 +67,8 @@ Fonts used are Cinzel and Cormorant Garamond from Google fonts. https://fonts.go
 
 Code in the HTML for the Social media links are copied from  the Love Running project from Code Institute. https://codeinstitute.net/
 
+Header is inspiered by the Love Running project from Code Institute. https://codeinstitute.net/
+
 Google maps added with https://google-map-generator.com/ at random spot in Dublin and adjusted to make it fit and removed unnecessary code from the generated code. 
 
 ### **Media**
