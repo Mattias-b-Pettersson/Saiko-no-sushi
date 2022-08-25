@@ -9,15 +9,16 @@
 body {
     font-family: Cormorant, sans-serif;
     color: #353f36;
-    font-size: 120%; 
+    font-size: 120%;
     background-color: #d5ddc7;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Cinzel, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#353f36;
+    color: #353f36;
 }
 
 /* Header and logo */
@@ -93,7 +94,8 @@ h1, h2 {
     background-color: whitesmoke;
 }
 
-#taste-experience h2, #taste-experience p {
+#taste-experience h2,
+#taste-experience p {
     padding-top: 2%;
     width: 50%;
     margin: 0 auto;
@@ -161,11 +163,12 @@ h1, h2 {
     background-color: rgba(213, 221, 199, .9);
 }
 
-#contact-form h2, #contact-form p {
+#contact-form h2,
+#contact-form p {
     margin-bottom: 20px;
 }
 
-.text-input{
+.text-input {
     background: transparent;
     font-size: 20px;
     height: 30px;
@@ -183,12 +186,14 @@ h1, h2 {
     border: 1px solid #353f36;
 }
 
-#mail-content:hover, .text-input:hover {
-    background-color: rgba(213, 221, 199, 1); 
+#mail-content:hover,
+.text-input:hover {
+    background-color: rgba(213, 221, 199, 1);
 }
 
-#mail-content:focus, .text-input:focus {
-    background-color: rgba(213, 221, 199, 1); 
+#mail-content:focus,
+.text-input:focus {
+    background-color: rgba(213, 221, 199, 1);
 }
 
 #send-button {
@@ -203,10 +208,9 @@ h1, h2 {
     cursor: pointer;
 }
 
-
 /* Footer */
 
-footer{
+footer {
     height: 350px;
     text-align: center;
     border-top: #353f36 solid 2px;
@@ -249,14 +253,14 @@ footer{
 /* For medium screen size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    
+
     #contact-form {
         width: 40%;
     }
 }
 
 @media screen and (max-width: 1050px) {
-    
+
     .gmap_canvas iframe {
         height: 200px;
         width: 90%;
@@ -268,11 +272,12 @@ footer{
 /* For smaler screen size from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-    
-    #taste-experience h2, #taste-experience p {
+
+    #taste-experience h2,
+    #taste-experience p {
         width: 70%;
     }
-    
+
 
     #contact-form {
         width: 50%;
@@ -282,9 +287,9 @@ footer{
 
 @media screen and (max-width: 875px) {
 
-    #taste-experience h2, #taste-experience p {
+    #taste-experience h2,
+    #taste-experience p {
         width: 85%;
-        
     }
 
     #contact-form {
@@ -326,7 +331,7 @@ footer{
     }
 }
 
-/* Smal phone screen */
+/* Small phone screen */
 
 @media screen and (max-width: 533px) {
 
