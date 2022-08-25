@@ -223,16 +223,12 @@ footer{
     overflow: hidden;
     background: none !important;
     height: 200px;
-    width: 1000px;
+    width: 100%;
 }
 
-.mapouter {
-    position: relative;
-    text-align: right;
+.gmap_canvas iframe {
     height: 200px;
-    width: 1000px;
-    margin: 0 auto;
-    padding-top: 30px;
+    width: 70%;
 }
 
 /* Social network links */
@@ -261,14 +257,9 @@ footer{
 
 @media screen and (max-width: 1050px) {
     
-    .mapouter {
+    .gmap_canvas iframe {
         height: 200px;
-        width: 100%;
-    }
-    
-    .gmap_canvas {
-        height: 200px;
-        width: 100%;
+        width: 90%;
     }
 
 }
@@ -286,7 +277,6 @@ footer{
     #contact-form {
         width: 50%;
     }
-
 
 }
 
@@ -319,7 +309,7 @@ footer{
         width: 100%;
     }
 
-    .gmap_canvas {
+    .gmap_canvas iframe {
         height: 500px;
         width: 100%;
     }
