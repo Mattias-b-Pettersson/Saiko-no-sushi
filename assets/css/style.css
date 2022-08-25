@@ -101,6 +101,7 @@ h1, h2 {
 
 #taste-experience p {
     padding-bottom: 2%;
+    text-align: justify;
 }
 
 /* Menu on the menu page */
@@ -249,18 +250,97 @@ footer{
 
 /* Media queries */
 
-/* For larger to medium screen size from 1200px wide and down*/
+/* For medium screen size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+    
+    #contact-form {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .mapouter {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .gmap_canvas {
+        height: 200px;
+        width: 100%;
+    }
 
 }
 
-/* For larger to medium screen size from 1200px wide and down*/
+
+/* For smaler screen size from 950px wide and down */
 
 @media screen and (max-width: 950px) {
     
+    #taste-experience h2, #taste-experience p {
+        width: 70%;
+    }
+    
+
+    #contact-form {
+        width: 50%;
+    }
+
+
 }
 
-@media screen and (max-width: 800px) {
-    
+@media screen and (max-width: 875px) {
+
+    #taste-experience h2, #taste-experience p {
+        width: 85%;
+        
+    }
+
+    #contact-form {
+        width: 70%;
+    }
+
+    #header-outer {
+        height: 150px;
+    }
+
+    #menu-outer {
+        float: left;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .mapouter {
+        height: 500px;
+        width: 100%;
+    }
+
+    .gmap_canvas {
+        height: 500px;
+        width: 100%;
+    }
+
+    #menupage-outer {
+        height: 800px;
+    }
+
+    #beverages div {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+/* Smal phone screen */
+
+@media screen and (max-width: 533px) {
+
+    #header-outer {
+        height: 250px;
+    }
 }
