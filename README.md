@@ -11,5 +11,3 @@ Fonts used are Cinzel and Cormorant Garamond from Google fonts.
 Big inspiration from the Love Running project on footer and header.
 
 Google maps added with https://google-map-generator.com/ at random spot in Dublin.
-
-
