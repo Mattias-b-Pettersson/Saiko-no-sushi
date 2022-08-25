@@ -1,6 +1,7 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 # **Saikō no sushi**
+
+![Saikō no sushi](/assets/readme-images/front-page.png)
 
 Saikō no sushi is a site that wants to help a restaurant named Saikō no sushi. Saikō no sushi meaning "The best sushi" in japanese. It will be esier for customers to see their menu and also see where they are located. 
 
@@ -10,24 +11,37 @@ Saikō no sushi is a site that wants to help a restaurant named Saikō no sushi.
 
 ### **Navigation Bar**
 
+![Navbar](/assets/readme-images/navbar.png)
+
 The navigation bar is located at the top on all pages, it helps the end user to navigate throught the webpage. 
 
 ### **The Hero Image**
 
-The hero image is located at the start page. It is a smal window that covers the image and it is possible to change the text to ongoing news that will catch the end users attention. 
+![Hero Image](/assets/readme-images/hero-image.png)
+
+The hero image is located at the start page. It also has a small window that covers the image and it is possible to change the text to ongoing news that will catch the end users attention. 
 
 ### **Japanese Tastes Section**
 
+![Japanese tastes](/assets/readme-images/japanese-tastes.png)
+
 The Japanese Tastes section aims to give the end user a overview of the tastes from japan and give them a small insight from japans rich culture.
 
-### **The Footer**
+### **The Footer** 
+
+![Footer](/assets/readme-images/footer.png)
 
 When scrolled down to the footer the first thing that will catch your attention is the map on where the restaurant is located. After that comes social links for where they can find us.
 
 ### **Menu page**
+
+![Menu Page](/assets/readme-images/menu-page.png)
+
 Here the end user is able to easily get a overview on what is on the menu.
 
 ### **Contact us page** 
+
+![Contact Us](/assets/readme-images/contact-us.png)
 
 This page hopes to make it easy for the end user to contact the restaurant in a simple contact form.
 

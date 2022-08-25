@@ -153,6 +153,7 @@ h2 {
     background-color: whitesmoke;
     min-height: 700px;
     width: 100%;
+    padding-top: .5%;
     background: url("../images/resturaunt-outside.jpg") no-repeat center center / cover;
 }
 
